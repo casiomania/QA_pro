@@ -6,4 +6,4 @@ function pow(x, y) {
     return result;
   }
 
-console.log( pow(2, 3) );
+console.log( pow(2, 3) )
