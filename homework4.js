@@ -3,7 +3,7 @@ function paritycheck(total) {
   let oddCount  = 0;
 
   for (let i = 0; i < total; i++) {
-    const number    = Math.floor(Math.random() * 991) + 10;
+    const number = Math.floor(Math.random() * 901) + 100;
     const lastDigit = Number.parseInt(String(number).slice(-1), 10);
 
     if (lastDigit % 2 === 0) {
